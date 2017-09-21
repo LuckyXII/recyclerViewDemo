@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/listIcon"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:background="#FFF7DA"
+        />
+
+    <LinearLayout
+        android:id="@+id/wordRow"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="1dp"
+        >
+
+        <TextView
+            android:id="@+id/miwokText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingTop="18dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:text="Miwok"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:id="@+id/englishText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            tools:text="English"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/playBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_if_icon_play_211876"
+        android:tint="#FFF"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="16dp"
+        />
+
+</LinearLayout>

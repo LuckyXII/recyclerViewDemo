@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiwokClear</string>
+    <string name="numbers">Numbers</string>
+    <string name="familyMembers">Family Members</string>
+    <string name="colors">Colors</string>
+    <string name="phrases">Phrases</string>
+    <string name="numbersName">Numbers</string>
+    <string name="familyLabel">Family Members</string>
+    <string name="phraseLabel">Phrases</string>
+    <string name="colorsLabel">Colors</string>
+</resources>
